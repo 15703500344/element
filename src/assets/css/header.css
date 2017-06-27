@@ -1,0 +1,236 @@
+.clearfix {
+  clear: both; }
+
+#header {
+  width: 100%;
+  height: 5.71733rem; }
+  #header img {
+    width: 100%;
+    height: 100%; }
+  #header .header-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5.71733rem;
+    background-color: rgba(7, 17, 27, 0.8);
+    filter: blur(10px); }
+    #header .header-content .header-head {
+      float: left;
+      margin-top: 1.024rem;
+      margin-left: 1.024rem;
+      width: 2.73067rem;
+      height: 2.73067rem;
+      border-radius: 4px;
+      background-color: red; }
+    #header .header-content .header-title {
+      float: left;
+      margin-left: 0.68267rem;
+      margin-top: 1.10933rem;
+      height: 2.56rem;
+      width: 8.10667rem; }
+      #header .header-content .header-title .header-title-d1 {
+        width: 100%;
+        height: 0.768rem; }
+        #header .header-content .header-title .header-title-d1 .header-title-sp1 {
+          display: inline-block;
+          width: 1.28rem;
+          float: left;
+          height: 0.768rem;
+          background: url("../img/brand@2x.png") no-repeat;
+          background-size: 100% 100%; }
+        #header .header-content .header-title .header-title-d1 .header-title-sp2 {
+          display: inline-block;
+          float: left;
+          font-size: 0.68267rem;
+          margin-left: 0.256rem;
+          color: white;
+          font-weight: bold;
+          line-height: 0.68267rem; }
+      #header .header-content .header-title .header-title-d2 {
+        font-size: 0.512rem;
+        color: white;
+        font-weight: 200;
+        line-height: 0.512rem;
+        margin-top: 0.34133rem; }
+      #header .header-content .header-title .header-title-d3 {
+        width: 100%;
+        height: 0.512rem;
+        margin-top: 0.42667rem; }
+        #header .header-content .header-title .header-title-d3 .header-title-sp3 {
+          display: inline-block;
+          width: 0.512rem;
+          float: left;
+          height: 0.512rem;
+          background: url("../img/decrease_1@2x.png") no-repeat;
+          background-size: 100% 100%; }
+        #header .header-content .header-title .header-title-d3 .header-title-sp4 {
+          display: inline-block;
+          float: left;
+          font-size: 0.512rem;
+          margin-left: 0.17067rem;
+          color: white;
+          font-weight: 200;
+          line-height: 0.512rem; }
+    #header .header-content .header-btn {
+      float: right;
+      margin-right: 0.512rem;
+      margin-top: 2.85867rem;
+      padding: 0.29867rem 0.34133rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      line-height: 0.512rem;
+      border-radius: 0.64rem; }
+    #header .header-content .header-notice {
+      width: 100%;
+      height: 1.19467rem;
+      background-color: rgba(7, 17, 27, 0.2);
+      margin-top: 0.576rem; }
+      #header .header-content .header-notice .header-title-sp5 {
+        display: inline-block;
+        width: 0.93867rem;
+        float: left;
+        height: 0.512rem;
+        background: url("../img/bulletin@2x.png") no-repeat;
+        background-size: 100% 100%;
+        margin-left: 0.512rem;
+        margin-top: 0.34133rem; }
+      #header .header-content .header-notice .header-title-sp6 {
+        display: inline-block;
+        float: left;
+        font-size: 0.46933rem;
+        margin-left: 0.17067rem;
+        color: white;
+        font-weight: 200;
+        line-height: 1.19467rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 13.22667rem; }
+      #header .header-content .header-notice .header-title-sp7 {
+        display: inline-block;
+        float: right;
+        font-size: 0.42667rem;
+        margin-right: 0.42667rem;
+        margin-left: 0.17067rem;
+        color: white;
+        font-weight: 200;
+        line-height: 1.19467rem; }
+
+#nav {
+  width: 100%;
+  height: 1.70667rem;
+  border-bottom: 2px solid rgba(7, 17, 27, 0.1); }
+  #nav div {
+    width: 33.33%;
+    font-size: 0.59733rem;
+    float: left;
+    text-align: center;
+    color: #4d555d;
+    line-height: 1.70667rem; }
+
+#container .container-left {
+  float: left;
+  width: 3.41333rem; }
+  #container .container-left .con-sidebar {
+    height: 2.304rem;
+    width: 3.41333rem;
+    background-color: #f3f5f7; }
+    #container .container-left .con-sidebar .sidebar-within {
+      height: 2.304rem;
+      width: 2.38933rem;
+      border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+      margin-left: 0.512rem;
+      font-size: 0.512rem;
+      color: #07111b;
+      display: inline-block;
+      line-height: 2.304rem; }
+      #container .container-left .con-sidebar .sidebar-within span {
+        width: 0.512rem;
+        height: 0.512rem;
+        display: inline-block;
+        background: url("../img/special_3@2x.png");
+        background-size: 100% 100%; }
+    #container .container-left .con-sidebar .single {
+      line-height: 0.59733rem;
+      margin-top: 0.64rem;
+      border: none; }
+#container .container-right {
+  float: left;
+  width: 12.58667rem; }
+  #container .container-right .con-rit-title {
+    height: 1.10933rem;
+    background-color: #f3f5f7;
+    line-height: 1.10933rem;
+    font-size: 0.512rem;
+    color: #93999f;
+    border-left: 4px solid #d9dde1;
+    padding-left: 0.59733rem; }
+  #container .container-right .con-rit-food {
+    height: 4.37333rem; }
+    #container .container-right .con-rit-food .food-img {
+      float: left;
+      margin-top: 0.768rem;
+      margin-left: 0.768rem;
+      width: 2.432rem;
+      height: 2.432rem;
+      background-color: red; }
+    #container .container-right .con-rit-food .food-details {
+      float: left; }
+      #container .container-right .con-rit-food .food-details .food-details-d1 {
+        font-size: 0.59733rem;
+        color: #01111b;
+        line-height: 0.59733rem;
+        margin-top: 0.85333rem;
+        margin-left: 0.42667rem; }
+      #container .container-right .con-rit-food .food-details .food-details-d2 {
+        font-size: 0.46933rem;
+        color: #93999f;
+        line-height: 0.46933rem;
+        margin-top: 0.34133rem;
+        margin-left: 0.42667rem; }
+      #container .container-right .con-rit-food .food-details .food-details-d3 {
+        font-size: 0.46933rem;
+        color: #93999f;
+        line-height: 0.46933rem;
+        margin-top: 0.34133rem;
+        margin-left: 0.42667rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d3 food-details-d3-sp2 {
+          margin-left: 0.512rem; }
+      #container .container-right .con-rit-food .food-details .food-details-d4 {
+        margin-left: 0.42667rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp1 {
+          font-size: 0.59733rem;
+          color: #f01414;
+          font-weight: 700; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp2 {
+          font-size: 0.512rem;
+          color: #93999f;
+          font-weight: 700; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp3 {
+          width: 0.85333rem;
+          height: 0.85333rem;
+          display: inline-block;
+          background-image: url("../img/jian.png");
+          background-size: 100% 100%;
+          vertical-align: middle;
+          margin-left: 1.49333rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp4 {
+          font-size: 0.512rem;
+          color: #93999f;
+          font-weight: 700;
+          display: inline-block; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp5 {
+          width: 0.85333rem;
+          height: 0.85333rem;
+          display: inline-block;
+          background-image: url("../img/jia.png");
+          background-size: 100% 100%;
+          vertical-align: middle; }
+
+#footer {
+  height: 2.048rem;
+  background-color: #141d27;
+  position: relative; }
