@@ -1,0 +1,109 @@
+html {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", Arial, sans-serif; }
+
+.clearfix {
+  clear: both; }
+
+#container {
+  overflow: hidden; }
+  #container .container-left {
+    float: left;
+    overflow: auto;
+    margin-top: 7.424rem;
+    width: 3.41333rem; }
+    #container .container-left .con-sidebar {
+      height: 2.304rem;
+      width: 3.41333rem;
+      background-color: #f3f5f7; }
+      #container .container-left .con-sidebar .sidebar-within {
+        height: 2.304rem;
+        width: 2.38933rem;
+        border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+        margin-left: 0.512rem;
+        font-size: 0.512rem;
+        color: #07111b;
+        display: inline-block;
+        line-height: 2.304rem; }
+        #container .container-left .con-sidebar .sidebar-within span {
+          width: 0.512rem;
+          height: 0.512rem;
+          display: inline-block;
+          background: url("../../assets/img/special_3@2x.png");
+          background-size: 100% 100%; }
+      #container .container-left .con-sidebar .single {
+        line-height: 0.59733rem;
+        margin-top: 0.64rem;
+        border: none; }
+  #container .container-right {
+    float: left;
+    margin-top: 7.424rem;
+    width: 12.58667rem; }
+    #container .container-right .con-rit-title {
+      height: 1.10933rem;
+      background-color: #f3f5f7;
+      line-height: 1.10933rem;
+      font-size: 0.512rem;
+      color: #93999f;
+      border-left: 4px solid #d9dde1;
+      padding-left: 0.59733rem; }
+    #container .container-right .con-rit-food {
+      height: 4.37333rem; }
+      #container .container-right .con-rit-food .food-img {
+        float: left;
+        margin-top: 0.768rem;
+        margin-left: 0.768rem;
+        width: 2.432rem;
+        height: 2.432rem;
+        background-color: red; }
+      #container .container-right .con-rit-food .food-details {
+        float: left; }
+        #container .container-right .con-rit-food .food-details .food-details-d1 {
+          font-size: 0.59733rem;
+          color: #01111b;
+          line-height: 0.59733rem;
+          margin-top: 0.85333rem;
+          margin-left: 0.42667rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d2 {
+          font-size: 0.46933rem;
+          color: #93999f;
+          line-height: 0.46933rem;
+          margin-top: 0.34133rem;
+          margin-left: 0.42667rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d3 {
+          font-size: 0.46933rem;
+          color: #93999f;
+          line-height: 0.46933rem;
+          margin-top: 0.34133rem;
+          margin-left: 0.42667rem; }
+          #container .container-right .con-rit-food .food-details .food-details-d3 food-details-d3-sp2 {
+            margin-left: 0.512rem; }
+        #container .container-right .con-rit-food .food-details .food-details-d4 {
+          margin-left: 0.42667rem; }
+          #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp1 {
+            font-size: 0.59733rem;
+            color: #f01414;
+            font-weight: 700; }
+          #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp2 {
+            font-size: 0.512rem;
+            color: #93999f;
+            font-weight: 700; }
+          #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp3 {
+            width: 0.85333rem;
+            height: 0.85333rem;
+            display: inline-block;
+            background-image: url("../../assets/img/jian.png");
+            background-size: 100% 100%;
+            vertical-align: middle;
+            margin-left: 2.13333rem; }
+          #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp4 {
+            font-size: 0.512rem;
+            color: #93999f;
+            font-weight: 700;
+            display: inline-block; }
+          #container .container-right .con-rit-food .food-details .food-details-d4 .food-details-d4-sp5 {
+            width: 0.85333rem;
+            height: 0.85333rem;
+            display: inline-block;
+            background-image: url("../../assets/img/jia.png");
+            background-size: 100% 100%;
+            vertical-align: middle; }

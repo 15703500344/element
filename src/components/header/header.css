@@ -1,0 +1,121 @@
+html {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", Arial, sans-serif; }
+
+.clearfix {
+  clear: both; }
+
+#header {
+  width: 100%;
+  height: 5.71733rem;
+  position: fixed;
+  top: 0; }
+  #header .header-content {
+    width: 100%;
+    height: 5.71733rem;
+    background-color: rgba(7, 17, 27, 0.8);
+    filter: blur(10px); }
+    #header .header-content .header-head {
+      float: left;
+      margin-top: 1.024rem;
+      margin-left: 1.024rem;
+      width: 2.73067rem;
+      height: 2.73067rem;
+      border-radius: 4px;
+      background-color: red; }
+    #header .header-content .header-title {
+      float: left;
+      margin-left: 0.68267rem;
+      margin-top: 1.10933rem;
+      height: 2.56rem;
+      width: 8.10667rem; }
+      #header .header-content .header-title .header-title-d1 {
+        width: 100%;
+        height: 0.768rem; }
+        #header .header-content .header-title .header-title-d1 .header-title-sp1 {
+          display: inline-block;
+          width: 1.28rem;
+          float: left;
+          height: 0.768rem;
+          background: url("../../assets/img/brand@2x.png") no-repeat;
+          background-size: 100% 100%; }
+        #header .header-content .header-title .header-title-d1 .header-title-sp2 {
+          display: inline-block;
+          float: left;
+          font-size: 0.68267rem;
+          margin-left: 0.256rem;
+          color: white;
+          font-weight: bold;
+          line-height: 0.68267rem; }
+      #header .header-content .header-title .header-title-d2 {
+        font-size: 0.512rem;
+        color: white;
+        font-weight: 200;
+        line-height: 0.512rem;
+        margin-top: 0.34133rem; }
+      #header .header-content .header-title .header-title-d3 {
+        width: 100%;
+        height: 0.512rem;
+        margin-top: 0.42667rem; }
+        #header .header-content .header-title .header-title-d3 .header-title-sp3 {
+          display: inline-block;
+          width: 0.512rem;
+          float: left;
+          height: 0.512rem;
+          background: url("../../assets/img/decrease_1@2x.png") no-repeat;
+          background-size: 100% 100%; }
+        #header .header-content .header-title .header-title-d3 .header-title-sp4 {
+          display: inline-block;
+          float: left;
+          font-size: 0.512rem;
+          margin-left: 0.17067rem;
+          color: white;
+          font-weight: 200;
+          line-height: 0.512rem; }
+    #header .header-content .header-btn {
+      float: right;
+      margin-right: 0.512rem;
+      margin-top: 2.85867rem;
+      padding: 0.29867rem 0.34133rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      font-size: 0.42667rem;
+      color: white;
+      font-weight: 200;
+      line-height: 0.512rem;
+      border-radius: 0.64rem; }
+    #header .header-content .header-notice {
+      width: 100%;
+      height: 1.19467rem;
+      background-color: rgba(7, 17, 27, 0.2);
+      margin-top: 0.576rem; }
+      #header .header-content .header-notice .header-title-sp5 {
+        display: inline-block;
+        width: 0.93867rem;
+        float: left;
+        height: 0.512rem;
+        background: url("../../assets/img/bulletin@2x.png") no-repeat;
+        background-size: 100% 100%;
+        margin-left: 0.512rem;
+        margin-top: 0.34133rem; }
+      #header .header-content .header-notice .header-title-sp6 {
+        display: inline-block;
+        float: left;
+        font-size: 0.46933rem;
+        margin-left: 0.17067rem;
+        color: white;
+        font-weight: 200;
+        line-height: 1.19467rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: 13.22667rem; }
+      #header .header-content .header-notice .header-title-sp7 {
+        display: inline-block;
+        float: right;
+        font-size: 0.42667rem;
+        margin-right: 0.42667rem;
+        margin-left: 0.17067rem;
+        color: white;
+        font-weight: 200;
+        line-height: 1.19467rem; }
+
+/*# sourceMappingURL=header.css.map */

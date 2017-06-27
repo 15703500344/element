@@ -1,0 +1,133 @@
+@function rem($px){
+  @return $px / 46.875 + rem;
+}
+html{
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Arial, sans-serif
+}
+.clearfix{
+  clear: both;
+}
+#container{
+  overflow: hidden;
+  .container-left{
+    float: left;
+    overflow: auto;
+    margin-top: rem(348);
+    width: rem(160);
+    .con-sidebar{
+      height: rem(108);
+      width: rem(160);
+      background-color: #f3f5f7;
+      .sidebar-within{
+        height: rem(108);
+        width: rem(112);
+        border-bottom: 1px solid rgba(7,17,27,0.1);
+        margin-left: rem(24);
+        font-size: rem(24);
+        color: #07111b;
+        display: inline-block;
+        line-height: rem(108);
+        span{
+          width: rem(24);
+          height: rem(24);
+          display: inline-block;
+          background: url("../../assets/img/special_3@2x.png");
+          background-size: 100% 100%;
+        }
+      }
+      .single{
+        line-height: rem(28);
+        margin-top: rem(30);
+        border: none;
+      }
+    }
+  }
+  .container-right{
+    float: left;
+    margin-top: rem(348);
+    width: rem(590);
+    .con-rit-title{
+      height: rem(52);
+      background-color: #f3f5f7;
+      line-height: rem(52);
+      font-size: rem(24);
+      color: rgb(147,153,159);
+      border-left:4px solid #d9dde1;
+      padding-left: rem(28);
+    }
+    .con-rit-food{
+      height: rem(205);
+      .food-img{
+        float: left;
+        margin-top: rem(36);
+        margin-left: rem(36);
+        width: rem(114);
+        height: rem(114);
+        background-color: red;
+      }
+      .food-details{
+        float: left;
+        .food-details-d1{
+          font-size: rem(28);
+          color: rgb(1,17,27);
+          line-height: rem(28);
+          margin-top: rem(40);
+          margin-left: rem(20);
+        }
+        .food-details-d2{
+          font-size: rem(22);
+          color: rgb(147,153,159);
+          line-height: rem(22);
+          margin-top: rem(16);
+          margin-left: rem(20);
+        }
+        .food-details-d3{
+          font-size: rem(22);
+          color: rgb(147,153,159);
+          line-height: rem(22);
+          margin-top: rem(16);
+          margin-left: rem(20);
+          food-details-d3-sp2{
+            margin-left: rem(24);
+          }
+        }
+        .food-details-d4{
+          margin-left: rem(20);
+          .food-details-d4-sp1{
+            font-size: rem(28);
+            color: #f01414;
+            font-weight: 700;
+          }
+          .food-details-d4-sp2{
+            font-size: rem(24);
+            color: rgb(147,153,159);
+            font-weight: 700;
+          }
+          .food-details-d4-sp3{
+            width: rem(40);
+            height: rem(40);
+            display: inline-block;
+            background-image: url("../../assets/img/jian.png");
+            background-size: 100% 100%;
+            vertical-align: middle;
+            margin-left: rem(100);
+          }
+          .food-details-d4-sp4{
+            font-size: rem(24);
+            color: rgb(147,153,159);
+            font-weight: 700;
+            display: inline-block;
+          }
+          .food-details-d4-sp5{
+            width: rem(40);
+            height: rem(40);
+            display: inline-block;
+            background-image: url("../../assets/img/jia.png");
+            background-size: 100% 100%;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

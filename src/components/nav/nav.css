@@ -1,0 +1,22 @@
+html {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", Arial, sans-serif; }
+
+.clearfix {
+  clear: both; }
+
+#nav {
+  width: 100%;
+  height: 1.70667rem;
+  border-bottom: 2px solid rgba(7, 17, 27, 0.1);
+  position: fixed;
+  background-color: white;
+  top: 5.71733rem; }
+  #nav ul li {
+    width: 33.33%;
+    font-size: 0.59733rem;
+    float: left;
+    text-align: center;
+    color: #4d555d;
+    line-height: 1.70667rem; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,51 @@
+@function rem($px){
+  @return $px / 46.875 + rem;
+}
+html{
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Arial, sans-serif
+}
+#evaluate{
+  margin-top: rem(348);
+  .ev-score{
+    height: rem(212);
+    width: 100%;
+    border-bottom: 2px solid #e6e7e8;
+    .score-left{
+      width: rem(275);
+      float: left;
+      .score-left-con{
+        width: 100%;
+        height: rem(140);
+        margin-top: rem(36);
+        text-align: center;
+        .sc-con-p1{
+          font-size: rem(48);
+          color: rgb(255,153,0);
+          line-height: rem(56);
+        }
+        .sc-con-p2{
+          font-size: rem(24);
+          color: rgb(7,17,27);
+          line-height: rem(24);
+          margin-top: rem(12);
+        }
+        .sc-con-p3{
+          font-size: rem(20);
+          color: #93999f;
+          line-height: rem(20);
+          margin-top: rem(16);
+        }
+      }
+    }
+    .score-right{
+      width: rem(474);
+      float: left;
+      .score-right-con{
+        width: 100%;
+        height: rem(140);
+        margin-top: rem(36);
+        border-left: 1px solid #e6e7e8;
+      }
+    }
+  }
+}

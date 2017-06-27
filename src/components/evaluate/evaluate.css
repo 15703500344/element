@@ -1,0 +1,41 @@
+html {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", Arial, sans-serif; }
+
+#evaluate {
+  margin-top: 7.424rem; }
+  #evaluate .ev-score {
+    height: 4.52267rem;
+    width: 100%;
+    border-bottom: 2px solid #e6e7e8; }
+    #evaluate .ev-score .score-left {
+      width: 5.86667rem;
+      float: left; }
+      #evaluate .ev-score .score-left .score-left-con {
+        width: 100%;
+        height: 2.98667rem;
+        margin-top: 0.768rem;
+        text-align: center; }
+        #evaluate .ev-score .score-left .score-left-con .sc-con-p1 {
+          font-size: 1.024rem;
+          color: #ff9900;
+          line-height: 1.19467rem; }
+        #evaluate .ev-score .score-left .score-left-con .sc-con-p2 {
+          font-size: 0.512rem;
+          color: #07111b;
+          line-height: 0.512rem;
+          margin-top: 0.256rem; }
+        #evaluate .ev-score .score-left .score-left-con .sc-con-p3 {
+          font-size: 0.42667rem;
+          color: #93999f;
+          line-height: 0.42667rem;
+          margin-top: 0.34133rem; }
+    #evaluate .ev-score .score-right {
+      width: 10.112rem;
+      float: left; }
+      #evaluate .ev-score .score-right .score-right-con {
+        width: 100%;
+        height: 2.98667rem;
+        margin-top: 0.768rem;
+        border-left: 1px solid #e6e7e8; }
+
+/*# sourceMappingURL=evaluate.css.map */

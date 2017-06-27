@@ -1,0 +1,138 @@
+@function rem($px){
+  @return $px / 46.875 + rem;
+}
+html{
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Arial, sans-serif
+}
+.clearfix{
+  clear: both;
+}
+#header{
+  width: 100%;
+  height: rem(268);
+  position: fixed;
+  top: 0;
+  .header-content{
+    width: 100%;
+    height:rem(268);
+    background-color: rgba(7,17,27,0.8);
+    filter: blur(10px);
+    .header-head{
+      float: left;
+      margin-top: rem(48);
+      margin-left: rem(48);
+      width: rem(128);
+      height: rem(128);
+      border-radius: 4px;
+      background-color: red;
+    }
+    .header-title{
+      float: left;
+      margin-left:rem(32);
+      margin-top: rem(52);
+      height: rem(120);
+      width: rem(380);
+      .header-title-d1{
+        width: 100%;
+        height: rem(36);
+        .header-title-sp1{
+          display: inline-block;
+          width: rem(60);
+          float: left;
+          height: rem(36);
+          background: url("../img/brand@2x.png")  no-repeat;
+          background-size: 100% 100%;
+        }
+        .header-title-sp2{
+          display: inline-block;
+          float: left;
+          font-size: rem(32);
+          margin-left: rem(12);
+          color: white;
+          font-weight: bold;
+          line-height: rem(32);
+        }
+      }
+      .header-title-d2{
+        font-size: rem(24);
+        color: rgb(255,255,255);
+        font-weight: 200;
+        line-height: rem(24);
+        margin-top: rem(16);
+      }
+      .header-title-d3{
+        width: 100%;
+        height: rem(24);
+        margin-top: rem(20);
+        .header-title-sp3{
+          display: inline-block;
+          width: rem(24);
+          float: left;
+          height: rem(24);
+          background: url("../img/decrease_1@2x.png")  no-repeat;
+          background-size: 100% 100%;
+        }
+        .header-title-sp4{
+          display: inline-block;
+          float: left;
+          font-size: rem(24);
+          margin-left: rem(8);
+          color: white;
+          font-weight: 200;
+          line-height: rem(24);
+        }
+      }
+    }
+    .header-btn{
+      float: right;
+      margin-right: rem(24);
+      margin-top: rem(134);
+      padding: rem(14) rem(16);
+      background-color: rgba(0,0,0,0.2);
+      font-size: rem(20);
+      color: white;
+      font-weight: 200;
+      line-height: rem(24);
+      border-radius:rem(30);
+    }
+    .header-notice{
+      width: 100%;
+      height: rem(56);
+      background-color: rgba(7,17,27,0.2);
+      margin-top: rem(27);
+      .header-title-sp5{
+        display: inline-block;
+        width: rem(44);
+        float: left;
+        height: rem(24);
+        background: url("../img/bulletin@2x.png")  no-repeat;
+        background-size: 100% 100%;
+        margin-left: rem(24);
+        margin-top: rem(16);
+      }
+      .header-title-sp6{
+        display: inline-block;
+        float: left;
+        font-size: rem(22);
+        margin-left: rem(8);
+        color: white;
+        font-weight: 200;
+        line-height: rem(56);
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        width: rem(620);
+      }
+      .header-title-sp7{
+        display: inline-block;
+        float: right;
+        font-size: rem(20);
+        margin-right: rem(20);
+        margin-left: rem(8);
+        color: white;
+        font-weight: 200;
+        line-height: rem(56);
+      }
+    }
+  }
+}

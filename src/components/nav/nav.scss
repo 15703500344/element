@@ -1,0 +1,28 @@
+@function rem($px){
+  @return $px / 46.875 + rem;
+}
+html{
+  font-family: 'PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', Arial, sans-serif
+}
+.clearfix{
+  clear: both;
+}
+#nav{
+  width: 100%;
+  height: rem(80);
+  border-bottom: 2px solid rgba(7,17,27,0.1);
+  position: fixed;
+  background-color: white;
+  top: rem(268);
+  ul{
+    li{
+      width: 33.33%;
+      font-size: rem(28);
+      float: left;
+      text-align: center;
+      color: rgb(77,85,93);
+      line-height: rem(80);
+    }
+  }
+
+}

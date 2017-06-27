@@ -1,0 +1,72 @@
+html {
+  font-family: "PingFang SC", "STHeitiSC-Light", "Helvetica-Light", Arial, sans-serif; }
+
+.clearfix {
+  clear: both; }
+
+#footer {
+  height: 2.048rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #141d27; }
+  #footer .footer-right {
+    width: 4.48rem;
+    float: right;
+    height: 100%;
+    font-size: 0.512rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    line-height: 2.048rem;
+    background-color: #2b333b;
+    text-align: center; }
+  #footer .footer-left {
+    width: 11.52rem;
+    float: left;
+    background-color: #141d27; }
+    #footer .footer-left .footer-left-right {
+      float: left;
+      width: 5.97333rem;
+      height: 1.024rem;
+      margin-top: 0.512rem;
+      border-left: 1px solid #2c343d;
+      line-height: 1.024rem;
+      font-size: 0.59733rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 700;
+      padding-left: 0.512rem; }
+    #footer .footer-left .footer-left-center {
+      float: left;
+      width: 1.49333rem;
+      height: 1.04533rem;
+      line-height: 1.04533rem;
+      font-size: 0.68267rem;
+      color: rgba(255, 255, 255, 0.4);
+      font-weight: 700;
+      margin-left: 3.41333rem;
+      margin-top: 0.512rem; }
+    #footer .footer-left .footer-left-left {
+      float: left;
+      position: relative; }
+      #footer .footer-left .footer-left-left .fleft-big {
+        width: 2.47467rem;
+        height: 2.47467rem;
+        border-radius: 50%;
+        background-color: #141d27;
+        position: absolute;
+        bottom: -2.00533rem;
+        margin-left: 0.34133rem; }
+        #footer .footer-left .footer-left-left .fleft-big .fleft-small {
+          width: 1.87733rem;
+          height: 1.87733rem;
+          border-radius: 50%;
+          background-color: #2b343c;
+          margin-top: 0.256rem;
+          margin-left: 0.256rem;
+          text-align: center; }
+          #footer .footer-left .footer-left-left .fleft-big .fleft-small i {
+            font-size: 1.024rem;
+            color: rgba(255, 255, 255, 0.4);
+            line-height: 1.81333rem; }
+
+/*# sourceMappingURL=footer.css.map */
